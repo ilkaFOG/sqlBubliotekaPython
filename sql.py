@@ -8,5 +8,5 @@ class BooksModel(Model):
     author = CharField(max_length=100)
 
     class Meta:
-        db_table = "books"
+        db_table = "Library"
         order_by = ("id",)

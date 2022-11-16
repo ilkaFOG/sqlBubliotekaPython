@@ -7,11 +7,11 @@ class Command:
         self.__description = description
     
     def __str__(self):
-        return f'Введите \'{self.__action.value}\'- для {self.__description}'
+        return f'Введите \'{self.__activ.value}\'- для {self.__description}'
 
     def to_string(self):
-        return f'Введите \'{self.__action.value}\'- для {self.__description}'
+        return f'Введите \'{self.__activ.value}\'- для {self.__description}'
 
     @property
     def activ(self):
-        return self.__action
+        return self.__activ
